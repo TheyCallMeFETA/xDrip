@@ -157,7 +157,7 @@ public class Profile {
         //return getTargetRangeInMmol(when) * scale_factor; // TODO deal with rounding errors here? (3 decimal places?)
     }
 
-    static double getCarbSensitivity(long when) {
+    public static double getCarbSensitivity(long when) {
         return getCarbRatio(when) / getSensitivity(when);
     }
 
