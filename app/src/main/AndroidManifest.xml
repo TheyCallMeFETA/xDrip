@@ -790,6 +790,8 @@
             android:foregroundServiceType="connectedDevice|location" />
 
         <activity android:name=".HelpActivity" />
+        <activity android:name=".CarbEstimationActivity" />
+        <activity android:name=".ProfileOptimizationActivity" />
         <activity
             android:name=".Agreement"
             android:label="Nightscout xDrip+" />

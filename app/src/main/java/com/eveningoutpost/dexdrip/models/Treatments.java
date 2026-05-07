@@ -951,6 +951,10 @@ public class Treatments extends Model {
         return response;
     }
 
+    public static Iob calcTreatmentPublic(final Treatments treatment, final long time) {
+        return calcTreatment(treatment, time, MultipleInsulins.useBasalActivity());
+    }
+
     // requires stepms granularity which we should already have
     private static double timesliceIactivityAtTime(Map<Long, Iob> timeslices, long thistime) {
         if (timeslices.containsKey(thistime)) {

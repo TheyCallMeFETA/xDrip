@@ -3485,6 +3485,14 @@ public class Home extends ActivityWithMenu implements ActivityCompat.OnRequestPe
         startActivity(new Intent(getApplicationContext(), MapsActivity.class));
     }
 
+    public void showCarbEstimation(MenuItem myitem) {
+        startActivity(new Intent(getApplicationContext(), CarbEstimationActivity.class));
+    }
+
+    public void showProfileOptimisation(MenuItem myitem) {
+        startActivity(new Intent(getApplicationContext(), ProfileOptimizationActivity.class));
+    }
+
     public void showHelpFromMenu(MenuItem myitem) {
         startActivity(new Intent(getApplicationContext(), HelpActivity.class));
     }
