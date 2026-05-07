@@ -2116,4 +2116,28 @@
     <string name="carb_est_confirm_log">Log %1$s g of carbs as a treatment now?</string>
     <string name="carb_est_logged">Logged %1$s g carbs</string>
     <string name="carb_est_negative_note">%1$s g (BG fell — insulin likely dominant)</string>
+
+    <!-- Profile Optimisation feature -->
+    <string name="prof_opt_title">Profile Optimisation</string>
+    <string name="prof_opt_menu_item">Optimise Profile (ISF / ICR)</string>
+    <string name="prof_opt_period_label">Analysis period</string>
+    <string name="prof_opt_days_label">%d days</string>
+    <string name="prof_opt_analyze">Analyse</string>
+    <string name="prof_opt_disclaimer">This tool suggests adjustments based on patterns in your data. Changes affect your entire profile. Always consult your healthcare provider before adjusting insulin settings. Suggestions are capped at ±25 %.</string>
+    <string name="prof_opt_isf_title">Insulin Sensitivity (ISF)</string>
+    <string name="prof_opt_isf_subtitle">Derived from insulin-only correction boluses</string>
+    <string name="prof_opt_icr_title">Carb Ratio (ICR)</string>
+    <string name="prof_opt_icr_subtitle">Derived from meal treatments with logged carbs</string>
+    <string name="prof_opt_current">Current value</string>
+    <string name="prof_opt_suggested">Suggested value</string>
+    <string name="prof_opt_change">Change</string>
+    <string name="prof_opt_samples">Data points used</string>
+    <string name="prof_opt_not_enough_data">Not enough clean data — need %1$d samples, found %2$d.</string>
+    <string name="prof_opt_already_good">Current value looks accurate — change is negligible.</string>
+    <string name="prof_opt_apply_isf">Apply ISF to all time blocks</string>
+    <string name="prof_opt_apply_icr">Apply ICR to all time blocks</string>
+    <string name="prof_opt_confirm_title">Apply profile change?</string>
+    <string name="prof_opt_confirm_apply">Change %1$s from %2$s %3$s → %4$s %5$s (%6$s%%)\n\nThis will overwrite all time blocks.</string>
+    <string name="prof_opt_applied">%1$s set to %2$s %3$s</string>
+    <string name="prof_opt_footer_note">Only insulin-only corrections with no recent meal activity are used for ISF analysis. Only meals with logged carbs are used for ICR analysis. Results improve with more logged data.</string>
 </resources>
